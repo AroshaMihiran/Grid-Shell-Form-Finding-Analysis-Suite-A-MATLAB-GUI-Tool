@@ -7,3 +7,30 @@ GridShell Coupled Analysis Tool (CAT) extends the workflow to address the fundam
 Both tools share a unified three-panel interface comprising interactive controls, editable data tables, and real-time 3D visualisation.
 
 Designed for researchers, engineers, and students working on lightweight timber structures, architectural geometry, and computational structural mechanics.
+
+Here's the cleaned-up version:
+
+Getting Started
+Prerequisites
+
+MATLAB (R2020a or later recommended)
+Optimization Toolbox — the computational backend uses fminunc for potential energy minimisation
+
+Directory Structure
+All scripts and helper functions must reside in the same parent directory:
+/GridShell_Analysis/
+├── GridShellAnalysisTool.m                      % CAT GUI
+├── GridShellAnalysisTool_FormFindingOnly.m      % FFT GUI
+├── RunGridShellAnalysis.m                       % CAT backend
+├── RunGridShellFormFinding.m                    % FFT backend
+├── gridshell_panels.m
+├── gridshell_panels_loads.m
+└── /FFMS/                                       % Helper functions
+    ├── GetL.m
+    ├── GetNepsZdof.m
+    └── GetPotential.m
+Launching the Tools
+Open MATLAB and set the current folder to GridShell_Analysis. Then run either command in the Command Window:
+ToolCommandForm Finding Tool (FFT)GridShellAnalysisTool_FormFindingOnlyCoupled Analysis Tool (CAT)GridShellAnalysisTool
+The GUI window will open with three panels: controls on the left, data tables in the centre, and 3D visualisation on the right. Follow the numbered sections in the controls panel from top to bottom to define your grid shell and run the analysis.
+
