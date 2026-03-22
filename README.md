@@ -94,6 +94,8 @@ Both tools generate a timestamped output folder containing:
 ### Coupled Analysis Tool (CAT)
 ![CAT Interface](Images/CAT_Interface.png)
 
+### Design Examples
 ![Design Examples](Images/Designexamples1.png)
 ![Design Examples](Images/Designexamples2.png)
+
 (a) Initial flat grid-shell layout with load pattern and cross-sectional area assignments, (b) resultant plots from the form-finding analysis, (c) resultant plots from the coupled analysis.
