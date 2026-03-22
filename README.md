@@ -88,8 +88,8 @@ Both tools generate a timestamped output folder containing:
 
 ## Screenshots
 
-*Add screenshots of the FFT and CAT interfaces here.*
-
+![FFT Interface](Images/FFT_Interface.png)
+![CAT Interface](Images/CAT_Interface.png)
 ---
 
 ## License
