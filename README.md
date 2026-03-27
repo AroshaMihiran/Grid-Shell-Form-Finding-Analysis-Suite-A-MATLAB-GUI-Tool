@@ -65,15 +65,15 @@ The GUI window will open with three panels: controls on the left, data tables in
 
 ## Workflow
 
-1. **Generate Grid** — Define X/Y spacing and spans to create a rectangular grid of candidate points
-2. **Select Nodes** — Pick nodes from the grid as free or fixed (boundary) nodes
-3. **Connect Edges** — Draw edges manually or use auto-connect (orthogonal or diagonal)
-4. **Define Materials** — Assign material properties (E, fcok, ftok, kmod) with custom colours
-5. **Set Member Areas** *(FFT)* — Assign cross-sectional areas to individual members
-6. **Define Loads** — Create load patterns (dead + wind) with custom colours and assign to panels
-7. **Generate Panels** — Auto-detect quadrilateral panels from the edge connectivity
-8. **Validate & Run** — Check inputs, generate CSV files, and launch the analysis
+1. **Generate Grid** — Define X/Y spacing and spans to create a rectangular grid.
+2. **Select Nodes** — Pick nodes from the rectangular grid as free or fixed nodes or define custom nodes.
+3. **Connect Edges** — Draw edges manually or use auto-connect (auto connect will draw all possible edges within a panel).
+4. **Define Materials** — Assign material properties (E, fcok, ftok, kmod).
+5. **Set Member Areas** *(FFT)* — Assign cross-sectional areas to individual members.
+6. **Generate Panels & Define Loads** — Auto-detect panels from the edge connectivity. Create load patterns (dead + wind) and assign to individual panels.
+7. **Validate & Run** — Check inputs, and launch the analysis.
 
+Note: User can simply click members and panels in the 3D visualisation panel to assign material and loads. User can use data table panel to edit inputs.
 ---
 
 ## Output
