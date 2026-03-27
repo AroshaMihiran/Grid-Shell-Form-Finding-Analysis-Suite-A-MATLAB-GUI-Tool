@@ -72,7 +72,7 @@ The GUI window will open with three panels: controls on the left, data tables in
 5. **Set Member Areas** *(FFT)* — Assign cross-sectional areas to individual members.
 6. **Generate Panels & Define Loads** — Auto-detect panels from the edge connectivity. Create load patterns (dead + wind) and assign to individual panels.
 7. **Validate & Run** — Check inputs, and launch the analysis.
-**Note: User can simply click members and panels in the 3D visualisation panel to assign material and loads. User can use data table panel to edit inputs.
+- **Note: User can simply click members and panels in the 3D visualisation panel to assign material and loads. User can use data table panel to edit inputs.
 ---
 
 ## Output
